@@ -16,7 +16,7 @@ Spotify end to end data pipeline project.
 
 2 AWS S3 - Amazon Simple Storage Service is an object storage service that offers industry-leading scalability, data availability, security, and performance.
 
-3 AS EventBridge - It is a serverless service that uses events to connect application components together, making it easier to build scalable event-driven applications.
+3 AWS EventBridge - It is a serverless service that uses events to connect application components together, making it easier to build scalable event-driven applications.
 
 4 AWS Glue - Fully AWS managed, serverless data integration service that simplifies the process of discovering, preparing, and combining data for analytics.
 
