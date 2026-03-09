@@ -21,4 +21,4 @@ Spotify end to end data pipeline project.
 
 
 # Architecture Diagram of Project
-https://github.com/Lalit-Lokhande/spotify-e2e-data-analysis-pipeline/blob/main/Architecture%20Diagram.jpg
+![Architecture Diagram](https://github.com/Lalit-Lokhande/spotify-e2e-data-analysis-pipeline/blob/main/Architecture%20Diagram.jpg)
