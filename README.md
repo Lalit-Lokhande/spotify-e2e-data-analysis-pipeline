@@ -27,7 +27,9 @@ Spotify end to end data pipeline project.
 ## Prerequisites (Installing Packages)
 '''
 pip install pandas 
+
 pip install numpy
+
 pip install spotipy
 '''
 
