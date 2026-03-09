@@ -25,13 +25,11 @@ Spotify end to end data pipeline project.
 6 AWS Athena - A serverless, interactive query service that enables analysis of data directly in Amazon S3 using standard SQL.
 
 ## Prerequisites (Installing Packages)
-'''
 pip install pandas 
 
 pip install numpy
 
 pip install spotipy
-'''
 
 ## Spotify API Documentation
 Retrieve metadata from Spotify content or control playback - [Spotify API](https://developer.spotify.com/documentation/web-api)
