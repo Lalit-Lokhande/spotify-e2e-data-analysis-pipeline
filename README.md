@@ -8,6 +8,32 @@ Spotify end to end data pipeline project.
 
 3 AWS Services - Use AWS services listed below for this End-to-End pipeline which will fetch the data for every 1 hour, transform it and provide the tabular data for further analytical purpose
 
+### Key Features
+
+• Serverless data pipeline using AWS services  
+• Handles Spotify API pagination (>100 tracks)  
+• Token refresh implementation for private playlists  
+• Data lake architecture with raw and processed layers  
+• JSON flattening and transformation using Pandas  
+• Automated pipeline scheduling using EventBridge
+
+## Architecture of the Project
+```
+Spotify API
+    ↓
+AWS Lambda (Data Ingestion)
+    ↓
+Amazon S3 (Raw Layer)
+    ↓
+AWS Lambda (Data Transformation)
+    ↓
+Amazon S3 (Processed Layer)
+    ↓
+AWS Glue Data Catalog
+    ↓
+AWS Athena (SQL Queries)
+```
+
 ## Architecture Diagram of Project
 ![Architecture Diagram](https://github.com/Lalit-Lokhande/spotify-e2e-data-analysis-pipeline/blob/main/Architecture%20Diagram.jpg)
 
@@ -25,11 +51,13 @@ Spotify end to end data pipeline project.
 6 AWS Athena - A serverless, interactive query service that enables analysis of data directly in Amazon S3 using standard SQL.
 
 ## Prerequisites (Installing Packages)
+```
 pip install pandas 
 
 pip install numpy
 
 pip install spotipy
+```
 
 ## Spotify API Documentation
 Retrieve metadata from Spotify content or control playback - [Spotify API](https://developer.spotify.com/documentation/web-api)
