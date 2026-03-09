@@ -18,3 +18,7 @@ Spotify end to end data pipeline project.
 4 AWS Glue - Fully AWS managed, serverless data integration service that simplifies the process of discovering, preparing, and combining data for analytics.
 
 5 AWS Athena - A serverless, interactive query service that enables analysis of data directly in Amazon S3 using standard SQL.
+
+
+# Architecture Diagram of Project
+https://github.com/Lalit-Lokhande/spotify-e2e-data-analysis-pipeline/blob/main/Architecture%20Diagram.jpg
