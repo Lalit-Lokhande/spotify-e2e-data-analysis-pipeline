@@ -8,7 +8,7 @@ Spotify end to end data pipeline project.
 
 3 AWS Services - Use AWS services listed below for this End-to-End pipeline which will fetch the data for every 1 hour, transform it and provide the tabular data for further analytical purpose
 
-# Serices Used
+# Services Used
 1 AWS Lambdas - AWS managed serverless computing service that runs the code in response to events and automatically manages the compute resources.
 
 2 AWS S3 - Amazon Simple Storage Service is an object storage service that offers industry-leading scalability, data availability, security, and performance.
